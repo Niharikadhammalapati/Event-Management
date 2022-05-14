@@ -1,6 +1,0 @@
-lib/**/*.js
-
-bin/**/*.js
-
-*.d.ts
-node_modules
