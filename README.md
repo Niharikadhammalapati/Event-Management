@@ -1,46 +1,31 @@
-# Web Dashboard
+# CDK Stack
 
-Web dashboard for Admins to manage Venues, Events, and Staff, as well as for Control Room Operators to view assistance requests for Events
+CDK code describing the infrastructure of the AWS backend as well as the code and tests for each Lambda.
 
-## Setup
+## Note
 
-- Requires a `src/config.json` based on `src/config.json.example`
+Before deploying make sure you run `npm install` in any lambda directory with a `package.json` such as `adminAuthorizer`
+and `addVenue`
 
 ## Open Source Libraries
 
-### [React](https://github.com/facebook/react/)
+### [AWS CDK](https://github.com/aws/aws-cdk)
+
+Apache 2.0 License
+
+### [AWS SDK](https://github.com/aws/aws-sdk)
+
+[See LICENSE file](https://github.com/aws/aws-sdk)
+
+### [Jest](https://github.com/facebook/jest)
 
 MIT License
 
-### [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
-
-[See License File](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)
-
-### [AWS Amplify JS](https://github.com/aws-amplify/amplify-js)
-
-Apache 2.0
-
-### [Boostrap](https://github.com/twbs/bootstrap)
+### [Prettier](https://github.com/prettier/prettier)
 
 MIT License
 
-### [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
-
-MIT License
-
-### [React Datepicker](https://github.com/Hacker0x01/react-datepicker)
-
-MIT License
-
-### [React Hot Toast](https://github.com/timolins/react-hot-toast)
-
-MIT License
-
-### [Sockette](https://github.com/lukeed/sockette)
-
-MIT License
-
-### [Styled Components](https://github.com/styled-components/styled-components)
+### [TS-node](https://github.com/TypeStrong/ts-node)
 
 MIT License
 
@@ -48,6 +33,14 @@ MIT License
 
 Apache 2.0 License
 
-### [Prettier](https://github.com/prettier/prettier)
+### [Axios](https://github.com/axios/axios)
 
 MIT License
+
+### [JsonWebToken](https://github.com/auth0/node-jsonwebtoken)
+
+MIT License
+
+### [Jwk-To-Pem](https://github.com/Brightspace/node-jwk-to-pem)
+
+Apache 2.0 License

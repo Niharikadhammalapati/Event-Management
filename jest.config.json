@@ -1,0 +1,8 @@
+{
+	"testMatch": [
+		"<rootDir>/test/**/*.js"
+	],
+	"modulePathIgnorePatterns": [
+		"<rootDir>/test/testUtils/*.*"
+	]
+}
